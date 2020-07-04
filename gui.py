@@ -50,7 +50,7 @@ def guiDecrypt():
 def start():
 	global enterText
 	mainWindow = Tk()
-	mainWindow.title("Stegnography")
+	mainWindow.title("Stegleg")
 	#photo = PhotoImage(file='icon.png')
 	#mainWindow.iconphoto(False,photo)
 	headLabel = Label(mainWindow,text="Quickly hide text inside images" ,font=("Arial",20)).pack()
